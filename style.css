@@ -1,0 +1,264 @@
+body {
+    background: radial-gradient(circle, rgba(55,55,61,1) 0%, rgba(0,0,0,1) 100%);
+    color: white;
+    
+}
+
+
+nav {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+}
+.start {
+    height: 55px;
+    display: flex;
+}
+
+.end {
+    height: 55px;
+    display: flex;
+}
+
+.end img {
+    padding: 0px 20px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li img {
+    height: 30px;
+}
+
+nav ul li #sign {
+    height: 50px;
+}
+
+nav ul li img:hover{
+    cursor: pointer;
+}
+
+main {
+    padding-top: 9vh;
+}
+
+h1, h3 {
+    font-family: cursive;
+}
+h2 {
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    color: grey;
+}
+
+button {
+    height: 40px;
+    width: 250px;
+    border-radius: 25px;
+    transition-property: all;
+    transition-duration: .5s; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button:hover{
+    background-color:#e10404;
+    color: white;
+    width: 300px;
+    height: 45px;
+    cursor:pointer;
+}
+
+i {
+    padding-right: 10px;
+}
+
+#about {
+    background-image: url("bg3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 20px;
+    height: 650px;
+    display: flex;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+}
+
+#name {
+    font-size: 50px;
+    color: rgb(255, 66, 45);
+}
+
+#photo {
+    display: block;
+    overflow: hidden;
+    padding-left: 275px;
+    filter: drop-shadow(2px 2px 5px rgb(0, 0, 0));
+}
+
+#data {
+    background: radial-gradient(circle, rgba(55,55,61,1) 0%, rgba(0,0,0,1) 100%);
+    position: relative;
+    margin: 650px -8px 0px -8px;
+}
+
+.ln1{
+    display: flex;
+    height: 100px;
+    width: 100vw;
+}
+
+.w1{
+    border-right: solid white 2px;
+    width: 50%;
+}
+
+.w2{
+    border-left: solid white 2px;
+    width: 50vw;
+}
+
+.w3{
+    width: 10vw;
+}
+
+.w4{
+    width: 80vw;
+    display: flex;
+}
+
+.hr1{
+    border-top: solid white 4px;
+    border-left: solid white 2px;
+    border-right: solid white 2px;
+    width: 33%;
+    height: 100px;
+}
+
+.skillInfo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skillInfo p {
+    width: 200px;
+}
+
+.skillItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skillItem img {
+    margin: 30px 0px;
+    height: 50px;
+    width: 60px;
+}
+
+.card {
+    font-family: cursive;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.card-item {
+    background-color: white;
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px black;
+    margin: 10px 10px 10px 10px;
+    transition-property: all;
+    transition-duration: .4s;
+}
+
+.card-item img {
+    height: 260px;
+    width: 250px;
+    border-radius: 20px;
+    transition-property: all;
+    transition-duration: .4s;
+}
+
+.card-item:hover{
+    height: 290px;
+    width: 300px;
+}
+
+.card-item img:hover{
+    height: 300px;
+    width: 310px;
+}
+
+.view {
+    padding: 15px 40px 0px 0px;
+    color: rgb(141, 141, 141);
+    text-decoration: none;
+    font-size: 20px;
+    float: right;
+}
+
+.view:hover {
+    color: #e10404;
+}
+
+#extras {
+    display: flex;
+    height: 230px;
+    align-items: center;
+}
+
+.tech-list {
+    display: flex;
+    justify-content: center;
+    color: rgb(145, 145, 145);
+}
+
+.tech-list ul {
+    list-style-type: none;
+}
+
+.extra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 55px;
+    color: rgb(145, 145, 145);
+}
+
+hr {
+    margin: 0px 0px;
+}
+
+footer{
+    background-color: black;
+    top: 0;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    padding: 42px 0px;
+    color: rgb(145, 145, 145);
+    margin: 0px -8px;
+}
