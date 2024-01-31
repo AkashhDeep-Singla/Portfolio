@@ -1,7 +1,10 @@
+*{
+    scroll-behavior: smooth;
+}
+
 body {
     background: radial-gradient(circle, rgba(55,55,61,1) 0%, rgba(0,0,0,1) 100%);
     color: white;
-    
 }
 
 
@@ -19,11 +22,19 @@ nav {
 .start {
     height: 55px;
     display: flex;
+    align-items: center;
+    padding-left: 0px;
+}
+
+.mid{
+    display: flex;
+    justify-content: center;
 }
 
 .end {
     height: 55px;
     display: flex;
+    padding-left: 0px;
 }
 
 .end img {
@@ -32,6 +43,19 @@ nav {
 
 nav ul li {
     list-style: none;
+}
+
+.mid li a {
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+    padding: 0px 10px;
+}
+
+.mid li :hover {
+    color: #e10404;
+    border-top: 2px solid  #e10404;
+    border-bottom: 2px solid  #e10404;
 }
 
 nav ul li img {
