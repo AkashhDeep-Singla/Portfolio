@@ -1,0 +1,46 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body {
+    background: radial-gradient(circle, rgba(55,55,61,1) 0%, rgba(0,0,0,1) 100%);
+    color: white;
+}
+
+h1, h2, h3 {
+    font-family: cursive;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    color: grey;
+}
+
+i {
+    padding-right: 10px;
+}
+
+button {
+    height: 40px;
+    width: 250px;
+    border-radius: 25px;
+    transition-property: all;
+    transition-duration: .5s; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button:hover{
+    background-color:#e10404;
+    color: white;
+    width: 300px;
+    height: 45px;
+    cursor:pointer;
+}
+
+hr {
+    margin: 0px 0px;
+}

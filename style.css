@@ -1,13 +1,3 @@
-*{
-    scroll-behavior: smooth;
-}
-
-body {
-    background: radial-gradient(circle, rgba(55,55,61,1) 0%, rgba(0,0,0,1) 100%);
-    color: white;
-}
-
-
 nav {
     height: 70px;
     display: flex;
@@ -19,43 +9,9 @@ nav {
     right: 0px;
     z-index: 1;
 }
-.start {
-    height: 55px;
-    display: flex;
-    align-items: center;
-    padding-left: 0px;
-}
-
-.mid{
-    display: flex;
-    justify-content: center;
-}
-
-.end {
-    height: 55px;
-    display: flex;
-    padding-left: 0px;
-}
-
-.end img {
-    padding: 0px 20px;
-}
 
 nav ul li {
     list-style: none;
-}
-
-.mid li a {
-    color: white;
-    text-decoration: none;
-    font-family: cursive;
-    padding: 0px 10px;
-}
-
-.mid li :hover {
-    color: #e10404;
-    border-top: 2px solid  #e10404;
-    border-bottom: 2px solid  #e10404;
 }
 
 nav ul li img {
@@ -66,48 +22,46 @@ nav ul li #sign {
     height: 50px;
 }
 
-nav ul li img:hover{
-    cursor: pointer;
+#start {
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
 }
+
+#mid{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+#mid li a {
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+    padding: 0px 10px;
+}
+
+#mid li :hover {
+    color: #e10404;
+    border-top: 2px solid  #e10404;
+    border-bottom: 2px solid  #e10404;
+}
+#end {
+    display: flex;
+    padding-left: 0px;
+}
+
+#end img {
+    padding: 0px 20px;
+}
+
 
 main {
     padding-top: 9vh;
 }
 
-h1, h3 {
-    font-family: cursive;
-}
-h2 {
-    font-family: cursive;
-    display: flex;
-    justify-content: center;
-}
-
-p{
-    color: grey;
-}
-
-button {
-    height: 40px;
-    width: 250px;
-    border-radius: 25px;
-    transition-property: all;
-    transition-duration: .5s; 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-button:hover{
-    background-color:#e10404;
-    color: white;
-    width: 300px;
-    height: 45px;
-    cursor:pointer;
-}
-
-i {
-    padding-right: 10px;
-}
-
-#about {
+#aboutMe {
     background-image: url("bg3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -124,45 +78,38 @@ i {
     color: rgb(255, 66, 45);
 }
 
-#photo {
-    display: block;
-    overflow: hidden;
-    padding-left: 275px;
-    filter: drop-shadow(2px 2px 5px rgb(0, 0, 0));
-}
-
-#data {
+#scrollPage {
     background: radial-gradient(circle, rgba(55,55,61,1) 0%, rgba(0,0,0,1) 100%);
     position: relative;
     margin: 650px -8px 0px -8px;
 }
 
-.ln1{
+.treeRow{
     display: flex;
     height: 100px;
     width: 100vw;
 }
 
-.w1{
+.treeTopLeft{
     border-right: solid white 2px;
     width: 50%;
 }
 
-.w2{
+.treeTopRight{
     border-left: solid white 2px;
     width: 50vw;
 }
 
-.w3{
+.treeBottomSide{
     width: 10vw;
 }
 
-.w4{
+.treeNode{
     width: 80vw;
     display: flex;
 }
 
-.hr1{
+.treeRoot{
     border-top: solid white 4px;
     border-left: solid white 2px;
     border-right: solid white 2px;
@@ -191,11 +138,11 @@ i {
     width: 60px;
 }
 
-.card {
+#cardContainer {
     font-family: cursive;
 }
 
-.cards {
+#cardSlider {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -203,7 +150,7 @@ i {
     scrollbar-width: none;
 }
 
-.card-item {
+.cardItem {
     background-color: white;
     height: 250px;
     width: 250px;
@@ -218,7 +165,7 @@ i {
     transition-duration: .4s;
 }
 
-.card-item img {
+.cardItem img {
     height: 260px;
     width: 250px;
     border-radius: 20px;
@@ -226,17 +173,17 @@ i {
     transition-duration: .4s;
 }
 
-.card-item:hover{
+.cardItem:hover{
     height: 290px;
     width: 300px;
 }
 
-.card-item img:hover{
+.cardItem img:hover{
     height: 300px;
     width: 310px;
 }
 
-.view {
+#view {
     padding: 15px 40px 0px 0px;
     color: rgb(141, 141, 141);
     text-decoration: none;
@@ -248,32 +195,18 @@ i {
     color: #e10404;
 }
 
-#extras {
+#endCredits {
     display: flex;
     height: 230px;
     align-items: center;
 }
 
-.tech-list {
-    display: flex;
-    justify-content: center;
-    color: rgb(145, 145, 145);
-}
-
-.tech-list ul {
-    list-style-type: none;
-}
-
-.extra {
+#endNote {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0px 55px;
     color: rgb(145, 145, 145);
-}
-
-hr {
-    margin: 0px 0px;
 }
 
 footer{

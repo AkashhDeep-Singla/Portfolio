@@ -6,29 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
     <script src="script.js"></script>
-    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <script src="script.js"></script>
     <title>Portfolio</title>
 </head>
 
 <body>
     <header>
         <nav>
-            <ul class = start>
+            <ul id = start>
                 <li><img id ="sign" src="signature.png" alt=""></li>
-                
             </ul>
-            <ul class="mid">
+
+            <ul id ="mid">
                 <li><a href="">Home</a></li>
                 <li><a href="#data">Skills</a></li>
                 <li><a href="#project">Projects</a></li>
             </ul>
-            <ul class = "end">
+
+            <ul id = "end">
                 <li><a href="https://www.instagram.com/"><img src="https://imgs.search.brave.com/6V6dEnZWuviqon8LNp8COEBkma6KAkiE4xgYHTIIC7c/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/cG5nbWFydC5jb20v/ZmlsZXMvMjIvQmxh/Y2stQW5kLVdoaXRl/LUluc3RhZ3JhbS1M/b2dvLVBORy1GaWxl/LnBuZw"alt=""></a></li>
                 <li><a href="https://www.linkedin.com/"><img src="https://imgs.search.brave.com/hPhuAp_eHtTZZfoR-x7IULKlqAn3m-e5cJsaKOG1Nd4/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pY29u/LWxpYnJhcnkuY29t/L2ltYWdlcy9saW5r/ZWRpbi1pY29uLWJs/YWNrLWFuZC13aGl0/ZS9saW5rZWRpbi1p/Y29uLWJsYWNrLWFu/ZC13aGl0ZS02Lmpw/Zw"
                         alt=""></a></li>
@@ -39,8 +41,8 @@
     </header>
 
     <main>
-        <div id="about">
-            <div id="text">
+        <div id="aboutMe">
+            <div>
                 <h1>Designing Websites as a <br>Freelancer</h1>
                 <h3>If you are looking for a frontend Freelancer to help you build webpages <br> - let's do it together</h3>
                 <a href="https://mail.google.com/mail/u/0/"><button class ="but"><img src="favicon-16x16.png" alt=""> Hey ! singlakash@gmail.com</button></a>
@@ -50,21 +52,21 @@
             </div>
         </div>
 
-        <div id="data">
-            <div class="tree">
-                <h2 id="skill">Languages</h2>
-                <div class="ln1">
-                    <div class="w1"></div>
-                    <div class="w2"></div>
+        <div id="scrollPage">
+            <div class="skillTree">
+                <h2>Languages</h2>
+                <div class="treeRow">
+                    <div class="treeTopLeft"></div>
+                    <div class="treeTopRight"></div>
                 </div>
-                <div class="ln1">
-                    <div class="w3"></div>
-                    <div class="w4">
-                        <div class="hr1"></div>
-                        <div class="hr1"></div>
-                        <div class="hr1"></div>
+                <div class="treeRow">
+                    <div class="treeBottomSide"></div>
+                    <div class="treeNode">
+                        <div class="treeRoot"></div>
+                        <div class="treeRoot"></div>
+                        <div class="treeRoot"></div>
                     </div>
-                    <div class="w3"></div>
+                    <div class="treeBottomSide"></div>
                 </div>
                 
                 <div class="skillInfo">
@@ -85,21 +87,22 @@
                         <p>JavaScript (JS) is a dynamic and versatile programming language that plays a pivotal role in enhancing the interactivity and responsiveness of web applications. As a core technology for front-end development, JS enables seamless communication with users, facilitating dynamic content updates and real-time interactions. Proficient in leveraging the Document Object Model (DOM), JavaScript empowers developers to manipulate webpage elements, create engaging animations, and build intuitive user interfaces.</p>
                     </div>
                 </div>
+            </div>
 
-            <div class="tree">
+            <div class="SkillTree">
                 <h2>Tools & Frameworks</h2>
-                <div class="ln1">
-                    <div class="w1"></div>
-                    <div class="w2"></div>
+                <div class="treeRow">
+                    <div class="treeTopLeft"></div>
+                    <div class="treeTopRight"></div>
                 </div>
-                <div class="ln1">
-                    <div class="w3"></div>
-                    <div class="w4">
-                        <div class="hr1"></div>
-                        <div class="hr1"></div>
-                        <div class="hr1"></div>
+                <div class="treeRow">
+                    <div class="treeBottomSide"></div>
+                    <div class="treeNode">
+                        <div class="treeRoot"></div>
+                        <div class="treeRoot"></div>
+                        <div class="treeRoot"></div>
                     </div>
-                    <div class="w3"></div>
+                    <div class="treeBottomSide"></div>
                 </div>
                 
                 <div class="skillInfo">
@@ -120,35 +123,36 @@
                         <p>I am a skilled JavaScript and React developer with a passion for building dynamic and responsive web applications. Proficient in leveraging the power of React to create interactive user interfaces that enhance the overall user experience. My expertise includes crafting reusable components, managing state efficiently, and integrating with backend APIs to fetch and display dynamic content. I am dedicated to staying current with the latest trends and best practices in the rapidly evolving JavaScript ecosystem.</p>
                     </div>
                 </div>
-                <hr>
+            </div>
+            <hr>
 
-            <div class="card">
+            <div id="cardContainer">
                 <h2 id="project">My Projects</h2>
-                <div class="cards">
-                    <div class="card-item">
+                <div id="cardSlider">
+                    <div class="cardItem">
                         <a href="B:\Web Development\Finished Projects\Survey Monkey\index.html"><img src="Survey.png"></a>
                     </div>
-                    <div class="card-item">
+                    <div class="cardItem">
                         <a href="B:\Web Development\Finished Projects\Moview\index.html"><img src="movie.png"></a>
                     </div>
-                    <div class="card-item">
+                    <div class="cardItem">
                         <a href="B:\Web Development\Finished Projects\MyKart\index.html"><img src="shop.png"></a>
                     </div>
-                    <div class="card-item">
+                    <div class="cardItem">
                         <a href=""><img src="no_project.png"></a>
                     </div>
-                    <div class="card-item">
+                    <div class="cardItem">
                         <a href=""><img src="no_project.png"></a>
                     </div>
-                    <div class="card-item">
+                    <div class="cardItem">
                         <a href=""><img src="no_project.png"></a>
                     </div>
                 </div>
-                <a class = "view" href="">View all</a>
+                <a id = "view" href="">View all</a>
             </div>
 
-            <div id = "extras">
-                <div class="extra">
+            <div id = "endCredits">
+                <div id="endNote">
                     <p>Welcome to my corner of the digital realm! I am a passionate frontend developer with a keen eye for crafting visually stunning and seamlessly interactive user interfaces. My journey in the ever-evolving world of web development has been driven by a relentless curiosity and a commitment to delivering exceptional user experiences. Armed with a toolbox that includes HTML, CSS, and JavaScript, I thrive on translating design concepts into responsive, pixel-perfect websites. Constantly embracing emerging technologies and design trends, I am dedicated to staying at the forefront of my field. With a blend of creativity and technical expertise, I aspire to elevate your online presence by bringing ideas to life through code. Let's embark on a journey to transform your visions into captivating digital experiences!</p>
                 </div>
                 <div>
