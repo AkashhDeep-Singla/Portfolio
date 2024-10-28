@@ -72,19 +72,19 @@ export const gridItems = [
 export const projects = [
     {
         id: 1,
-        title: "Ride-Cuilicious",
+        title: "Ride-Culicious",
         des: "Craving something good ? Get your favourite food delivered in 30 mins. at your doorstep !",
-        img: "/p1.svg",
+        img: "/food.png",
         iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-        link: "https://github.com/adrianhajdin?tab=repositories",
+        link: "https://rideculicious.netlify.app/",
     },
     {
         id: 2,
         title: "Hostel-Sync",
         des: "SaaS product for universities to manage data for their hostels & providing students with their services",
-        img: "/p2.svg",
+        img: "/hostel.png",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-        link: "https://github.com/adrianhajdin/zoom-clone",
+        link: "https://github.com/AkashhDeep-Singla/Hostel-Sync.git",
     },
 ];
 
