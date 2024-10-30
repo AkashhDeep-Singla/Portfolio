@@ -201,7 +201,7 @@ const ShaderMaterial = ({
     });
 
     const getUniforms = () => {
-        const preparedUniforms: { [key: string]: { value: any; type: string } } = {};
+        const preparedUniforms: { [key: string]: { value: unknown; type: string } } = {};
 
         for (const uniformName in uniforms) {
             const uniform = uniforms[uniformName];
